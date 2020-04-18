@@ -1,0 +1,86 @@
+body {
+  background-color: #323232;
+  color: green;
+  font-family: "Roboto", sans-serif;
+}
+
+.time {
+  position: relative;
+  left: 1000px;
+}
+
+p {
+  display: inline-block;
+  padding: 0 235px 20px 50px;
+  width: 20%;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 80px;
+}
+
+h3 {
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+
+.container div{
+  border-radius: 5px;
+  padding: 20px 10px 10px;
+  background-color: black;
+  color: green;
+  font-size: 3rem;
+  position: relative;
+
+}
+
+.container{
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  z-index: -1;
+}
+
+.box{
+  max-width: 520px;
+  margin: 20px auto 50px;
+  border: 1px solid;
+  padding: 10px;
+  border-color: white;
+  border-radius: 5px;
+  background-color: #323232;
+  position: relative;
+  bottom: 100px;
+
+
+}
+
+.container .pressed{
+  background-color: #323232;
+  color:  #323232;
+}
+
+.start{
+
+  color: green;
+  font-size: 3rem;
+  position: absolute;
+  left: 25%;
+  top: 43%;
+  z-index: 1;
+  background-color: #323232;
+}
+
+.restart{
+  color: green;
+}
+
+#ldb{
+  position: absolute;
+  left: 592px;
+}
