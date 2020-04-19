@@ -5,22 +5,15 @@ body {
 }
 
 .time {
-  position: relative;
-  left: 1000px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: white;
 }
 
-p {
-  display: inline-block;
-  padding: 0 235px 20px 50px;
+.instruct {
   width: 20%;
   font-size: 1.5rem;
-  position: relative;
-  bottom: 80px;
-}
-
-h3 {
-  padding-bottom: 5px;
-  color: #fff;
 }
 
 .container div {
@@ -46,7 +39,7 @@ h3 {
 
 .box {
   max-width: 520px;
-  margin: 20px auto 50px;
+  margin: 100px auto 50px;
   border: 1px solid;
   padding: 10px;
   border-color: white;
@@ -76,6 +69,21 @@ h3 {
 }
 
 #ldb {
-  position: absolute;
-  left: 593px;
+  text-align: center;
+  color: white;
 }
+
+.cen-text {
+  text-align: center;
+  position: relative;
+  bottom: 55px;
+  font-size: 1.5rem;
+}
+
+/* @media (max-width: 900px){
+  body{
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+} */
