@@ -23,18 +23,16 @@ h3 {
   color: #fff;
 }
 
-
-.container div{
+.container div {
   border-radius: 5px;
   padding: 20px 10px 10px;
   background-color: black;
   color: green;
   font-size: 3rem;
   position: relative;
-
 }
 
-.container{
+.container {
   max-width: 500px;
   display: grid;
   grid-template-columns: repeat(5, 100px);
@@ -46,7 +44,7 @@ h3 {
   z-index: -1;
 }
 
-.box{
+.box {
   max-width: 520px;
   margin: 20px auto 50px;
   border: 1px solid;
@@ -56,17 +54,14 @@ h3 {
   background-color: #323232;
   position: relative;
   bottom: 100px;
-
-
 }
 
-.container .pressed{
+.container .pressed {
   background-color: #323232;
-  color:  #323232;
+  color: #323232;
 }
 
-.start{
-
+.start {
   color: green;
   font-size: 3rem;
   position: absolute;
@@ -76,11 +71,11 @@ h3 {
   background-color: #323232;
 }
 
-.restart{
+.restart {
   color: green;
 }
 
-#ldb{
+#ldb {
   position: absolute;
-  left: 592px;
+  left: 593px;
 }
