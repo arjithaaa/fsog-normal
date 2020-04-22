@@ -1,12 +1,11 @@
 body {
-  background-color: #323232;
-  color: green;
+  background-color: #08D9D6;
   font-family: "Roboto", sans-serif;
 }
 
 .time {
   position: absolute;
-  top: 0;
+  top: 150px;;
   right: 20px;
   color: white;
 }
@@ -14,14 +13,15 @@ body {
 .instruct {
   width: 20%;
   font-size: 1.5rem;
+  color: #FF2E63;
 }
 
 .container div {
-  border-radius: 5px;
-  padding: 20px 10px 10px;
-  background-color: black;
-  color: green;
+  border-radius: 5%;
+  padding: 20% 10% 10%;
+  color: #FF2E63;
   font-size: 3rem;
+  text-align: center;
   position: relative;
 }
 
@@ -31,7 +31,6 @@ body {
   grid-template-columns: repeat(5, 100px);
   grid-gap: 5px;
   grid-auto-rows: minmax(100px, auto);
-  text-align: center;
   font-weight: bold;
   position: relative;
   z-index: -1;
@@ -42,35 +41,35 @@ body {
   margin: 100px auto 50px;
   border: 1px solid;
   padding: 10px;
-  border-color: white;
+  border-color: #FF2E63;
   border-radius: 5px;
-  background-color: #323232;
+  background-color: #08D9D6;
   position: relative;
   bottom: 100px;
 }
 
 .container .pressed {
-  background-color: #323232;
-  color: #323232;
+  background-color: #08D9D6;
+  color: #08D9D6;
 }
 
 .start {
-  color: green;
+  color: #FF2E63;
   font-size: 3rem;
   position: absolute;
   left: 25%;
   top: 43%;
   z-index: 1;
-  background-color: #323232;
+  background-color: #08D9D6;
 }
 
 .restart {
-  color: green;
+  color: #FF2E63;
 }
 
 #ldb {
   text-align: center;
-  color: white;
+  color: white
 }
 
 .cen-text {
@@ -78,12 +77,75 @@ body {
   position: relative;
   bottom: 55px;
   font-size: 1.5rem;
+  color: #FF2E63;
 }
 
-/* @media (max-width: 900px){
+@media (max-width: 900px){
   body{
     text-align: center;
-    display: block;
-    margin: auto;
   }
-} */
+
+  #ldb, p{
+    margin: auto;
+    display: block;
+  }
+
+  .instruct{
+    width: 100%;
+  }
+
+  .time{
+    position: static;
+    margin: auto;
+    display: block;
+  }
+
+  .cen-text{
+    position: static;
+    padding: 20px 0;
+  }
+
+}
+
+@media (max-width: 520px){
+  .box, .container{
+    max-width: 100%;
+  }
+
+  .container{
+    grid-template-columns: repeat(5, 20%);
+    grid-gap: 0;
+  }
+
+  .container div{
+    border: 3px solid;
+    border-color: #08D9D6;
+    border-radius: 10px;
+  }
+
+}
+
+.mode{
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.mode:hover{
+  color: #E3F6F5;
+}
+
+.diff{
+  position: relative;
+  text-align: center;
+}
+
+.selected{
+  color: #FF2E63;
+}
+
+.selected:hover{
+  color: #FFBCBC;
+}

@@ -10,15 +10,20 @@
 <body>
   <h3 id="ldb" onclick="viewLdb()">View Leaderboard</h3>
   <div class="time">
-    <h3 id="best">BEST TIME : </h3>
+    <h3 id="best">BEST TIME : 0.000</h3>
     <h3 id="timer">TIME : 0.000</h3>
+  </div>
+  <div class="diff">
+    <p class="mode easy" onclick="easyMode()">Easy</p>
+    <p class="mode med" onclick="medMode()">Medium</p>
+    <p class="mode hard" onclick="hardMode()">Hard</p>
   </div>
 
   <p class="instruct">Click <strong>the numbers</strong> as quickly as you can!</p>
   <p class="cen-text"><strong>New Game</strong></p>
 
   <div class="box">
-    <div class="start" onclick="cards()">Click To Start!</div>
+    <div class="start" onclick="  cards()">Click To Start!</div>
     <div class="container">
       <!-- Grids have been made in JS -->
     </div>
