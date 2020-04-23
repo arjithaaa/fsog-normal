@@ -61,6 +61,7 @@ body {
   top: 43%;
   z-index: 1;
   background-color: #08D9D6;
+  cursor: pointer;
 }
 
 .restart {
@@ -69,7 +70,8 @@ body {
 
 #ldb {
   text-align: center;
-  color: white
+  color: white;
+  cursor: pointer;
 }
 
 .cen-text {
@@ -130,6 +132,7 @@ body {
   padding: 10px 30px;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
 
 }
 

@@ -222,6 +222,7 @@ function viewLdb() {
   inName.style.fontSize = "200%";
   inName.style.left = "34%";
   inName.style.top = "25%";
+  inName.style.color = "white";
 
   setTimeout(function() {
     inName.style.fontSize = "300%";
